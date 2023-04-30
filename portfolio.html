@@ -137,8 +137,8 @@
               </a>
             </li>
             <li class="rows-item">
-              <a class="link rows-link" href>
-                <div class="rows-wrap"><img
+              <a class="link rows-link" href
+                  class="rows-wrap"><img
                   class="rows-img"
                   src="./images/Portfolio/four.jpg"
                   alt="Taxi Service"
@@ -150,7 +150,7 @@
                   Cloud Storage App</p>
                 </div>
                 
-                </div>
+                </class=>
                 
                 <div class="rows-card">
                   <h2 class="rows-uppertitle">Taxi Service</h2>
@@ -313,15 +313,17 @@
             </li>
           </ul>
         </div>
-        <p class="footer-form-text">Subscribe</p>
-        <form class="footer-form">
-          <input type="email" class="footer-form-e-mail" placeholder="E-mail" name="user_e-mail">
-          <button type="submit" class="footer-btn-subscribe">Subscribe
-            <svg class="icon-footer" width="24" height="24">
-              <use href="./images/icon.svg#icon-footer"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="footer-form-wrap">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <input aria-label="email" type="email" class="footer-form-e-mail" placeholder="E-mail" name="user_e-mail">
+            <button type="submit" class="footer-btn-subscribe">Subscribe
+              <svg class="icon-footer" width="24" height="24">
+                <use href="./images/icon.svg#icon-footer"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
